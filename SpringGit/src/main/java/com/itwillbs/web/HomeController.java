@@ -38,13 +38,26 @@ public class HomeController {
 	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public void Test() {
-		logger.debug(" Test() 호출 !!! ");
+		logger.debug(" Test() �샇異� !!! ");
 		
-		logger.debug(" 1. 서비스 객체 생성 ");
+		logger.debug(" 1. �꽌鍮꾩뒪 媛앹껜 �깮�꽦 ");
 		
-		logger.debug(" 2. DAO 객체 생성 ");
+		logger.debug(" 2. DAO 媛앹껜 �깮�꽦 ");
 		
-		logger.debug(" 3. mapper 호출 ");
+		logger.debug(" 3. mapper �샇異� ");
+		
+	}
+	
+	// 집에서 작업한 내용
+	@RequestMapping(value = "/test2", method = RequestMethod.GET)
+	public void Test2() {
+		logger.debug(" Test2() �샇異� !!! ");
+		
+		logger.debug(" 1. �꽌鍮꾩뒪 媛앹껜 �깮�꽦 ");
+		
+		logger.debug(" 2. DAO 媛앹껜 �깮�꽦 ");
+		
+		logger.debug(" 3. mapper �샇異� ");
 		
 	}
 	
